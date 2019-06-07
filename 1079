@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    char a;
+    while(a!='q'){
+        scanf("%c ",&a);
+        if(a=='q'){
+            printf("%c\n",a);
+            return 0;
+        }
+        printf("%c\n",a);
+    }
+    return 0;
+}
