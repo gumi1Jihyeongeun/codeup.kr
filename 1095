@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int a, b, c, i, j[10001]={};
+    scanf("%d",&a);
+    scanf("%d",&c);
+    for(i=1; i<a; i++){
+        scanf("%d", &b);
+        if(c>b){
+            c=b;
+        }
+    }
+    printf("%d",c);
+    return 0;
+}
