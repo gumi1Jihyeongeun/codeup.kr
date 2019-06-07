@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int a, b=0, i;
+    scanf("%d",&a);
+    for(i=1; i<=a; i++){
+        b+=i;
+        if(b>=a){
+            break;
+        }
+    }
+    printf("%d",i);
+    return 0;
+}
