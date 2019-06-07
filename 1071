@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    long long int a;
+    re:
+        scanf("%lld",&a);
+        printf("%lld\n",a);
+        if (a!=0) goto re;
+    return 0;
+}
