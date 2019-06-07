@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int a, i=1, re=0;
+    scanf("%d",&a);
+    while(i<=a){
+        if(i%2==0){
+            re+=i;
+        }
+        i++;
+    }
+    printf("%d",re);
+    return 0;
+}
